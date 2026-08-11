@@ -2,9 +2,9 @@ import datetime as dt
 
 from django.test import TestCase
 from django.utils.timezone import now
-from testapp.models import Article, Comment, Payment
 
 from recent_objects.recent_objects import RecentObjects
+from testapp.models import Article, Comment, Payment
 
 
 class RecentObjectsTest(TestCase):
